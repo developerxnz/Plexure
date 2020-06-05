@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plexure.Sample", "Plexure.Sample\Plexure.Sample.csproj", "{9A8932FC-B4DA-4BCC-94A2-53054BEA2E8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plexure.Sample.Tests", "Plexure.Sample.Tests\Plexure.Sample.Tests.csproj", "{06978781-80F4-4D36-8B54-F45CB9A2BA1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A8932FC-B4DA-4BCC-94A2-53054BEA2E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8932FC-B4DA-4BCC-94A2-53054BEA2E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8932FC-B4DA-4BCC-94A2-53054BEA2E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8932FC-B4DA-4BCC-94A2-53054BEA2E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06978781-80F4-4D36-8B54-F45CB9A2BA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06978781-80F4-4D36-8B54-F45CB9A2BA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06978781-80F4-4D36-8B54-F45CB9A2BA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06978781-80F4-4D36-8B54-F45CB9A2BA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58E95810-00BE-46D3-9C50-C09801C3AD1A}
+	EndGlobalSection
+EndGlobal
