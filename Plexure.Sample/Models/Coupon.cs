@@ -45,9 +45,9 @@ namespace Plexure.Sample.Models
 
         public DateTime ModifiedOnUtc { get; set; }
 
-        public DateTime RedemtionDateUtc { get; set; }
-
         public Guid ApplicationIdentifier { get; set; }
+
+        public DateTime RedemtionDateUtc { get; set; }
 
     }
 
