@@ -51,8 +51,6 @@ Fix
 Issues
 	
     Cause the application to hang, waiting for the GetItinaryAsync to complete before moving on.
-	
-    Could also use up all the threads
 
 Fix
 

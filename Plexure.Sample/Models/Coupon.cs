@@ -13,17 +13,21 @@ namespace Plexure.Sample.Models
     {
         public int Id { get; set; }
 
+        public DateTime CreatedOnUtc { get; set; }
+
+        public DateTime ModifiedOnUtc { get; set; }
+
         public DateTime EndDateUtc { get; set; }
 
         public bool IsActive { get; set; }
 
-        public DateTime StartDateUtc { get; set; }
-
-        public string Title { get; set; }
-
         public long MaxAllocation { get; set; }
 
         public int MaxUserAllocation { get; set; }
+
+        public DateTime StartDateUtc { get; set; }
+
+        public string Title { get; set; }
 
         public long TotalRedemptions { get; set; }
 
@@ -37,9 +41,27 @@ namespace Plexure.Sample.Models
 
         public int UserId { get; set; }
 
+        public DateTime CreatedOnUtc { get; set; }
+
+        public DateTime ModifiedOnUtc { get; set; }
+
         public DateTime RedemtionDateUtc { get; set; }
 
         public Guid ApplicationIdentifier { get; set; }
+
+    }
+
+    public class UserCouponRedemption
+    {
+        public int CouponId { get; set; }
+
+        public int UserId { get; set; }
+
+        public DateTime CreatedOnUtc { get; set; }
+
+        public DateTime ModifiedOnUtc { get; set; }
+
+        public int TotalRedemptions { get; set; }
 
     }
 }
@@ -51,6 +73,8 @@ Coupon
 Optimisation 
 - Index on the Coupon.Id
 - Index on the Coupon.IsActive
+
+Depending on 
 
 CouponRedemption
 Index on CouponRedemption.CouponId and CouponRedemption.UserId
