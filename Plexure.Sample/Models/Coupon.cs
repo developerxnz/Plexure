@@ -80,4 +80,7 @@ CouponRedemption
 Index on CouponRedemption.CouponId and CouponRedemption.UserId
 Index on ApplicationIdentifier
 
+UserCouponRedemption
+Index on UserCouponRedemption.CouponId and UserCouponRedemption.UserId
+
  */
